@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+        <i class='bx bx-menu' id="box-menu"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#skills" >Skills</a>
+            <a href="#portfolio" >Portfolio</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Karanjeet Kumar</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm a web Designer with extensive experience for over 3 years.
+                <br>expertise is to create and website design, Frontend design, and many more.
+            </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/karanjeetsingh.rajput.921/"><i class='bx bxl-facebook' class="fb"></i></a>
+                <a href="https://x.com/karanjeet088"><i class='bx bxl-twitter' class="twit"></i></a>
+                <a href="https://www.instagram.com/rajputkaranjeetsingh/"><i class='bx bxl-instagram-alt' class="insta"></i></a>
+                <a href="https://www.linkedin.com/in/karanjeet-kumar-8aba70252/"><i class='bx bxl-linkedin-square' class="lin"></i></a>
+            </div>
+            <div class="resume">
+                <a href="./public/cv.html" class="btn">View CV</a>
+                <a href="/images/resume.jpg" class="btn" download>Download CV</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./images/my pic.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About<span> Me</span></h2>
+            <h3>Fullstack Developer!</h3>
+            <p>
+                I'm Karanjeet Kumar, a 20-year-old Indian
+                <strong>Fullstack developer</strong>. 
+                I'm a weird guy who likes making weird things with web technologies. 
+                <br>I like to <strong>resolve</strong> design problems, 
+                <strong>create</strong> smart user interface and 
+                <strong>imagine</strong> useful interaction, developing rich web experiences &amp;  
+                <strong>web applications</strong>. 
+                <br> When not working or futzing around with code, 
+                I study how to escape from University. Actually <strong>for hire</strong>.
+            </p>
+            
+            <button id="myBtn" class="btn">Read More</button>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="contact-info">
+                    <h3 class="h4 about-me-title">About Me.</h3>
+                    <h4 class="h5 about-me-subtitle">Interactive developer.</h4>
+                    <br>
+                    <p class="about-me-text">Hii, My name is Karanjeet Kumar. I am currently doing my <strong>BTech from NIT Goa</strong>, Cuncolim.
+                        <br>Proficient <strong>web developer</strong> with hands-on experience in building robust applications using 
+                        <strong>React</strong>, <strong>Material-UI</strong>, and <strong>Chakra UI</strong>, focusing on responsive design and user-centric features. 
+                        <br>Strong command over core programming concepts and <strong>data structures</strong>, with extensive problem-solving experience on Leetcode and other coding platforms. 
+                        <br>Skilled in <strong>Python</strong> with practical experience in <strong>machine learning</strong> and data analysis, bringing data-driven insights to enhance application functionalities and user experience.
+                        <br>Experienced in optimizing backend solutions, <strong>integrating APIs</strong>, and implementing database structures using <strong>MongoDB</strong> for efficient data handling.
+                    </p>
+                    <div class="skills-badges">
+                        <span class="badge">HTML</span>
+                        <span class="badge">CSS</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">React</span>
+                        <span class="badge">Next</span>
+                        <span class="badge">Node.js</span>
+                        <span class="badge">Express.js</span>
+                        <span class="badge">MongoDB</span>
+                        <span class="badge">Python</span>
+                        <span class="badge">Material-UI</span>
+                        <span class="badge">Chakra UI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-img">
+            <img src="./images/aboutpic.jpg" alt="">
+        </div>
+    </section>
+
+    
+    <section class="skills" id="skills">
+        <h2 class="heading">My<span> Skill</span></h2>
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>72%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Figma</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="figma"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Javascript</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>62%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-left">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Communication</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="55"></div>
+                        <div class="text">
+                            <big>55%</big>
+                            <small>Project Management</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./images/portfolio1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tic-Tac-Toe</h4>
+                    <p>Developed a game with interactive 
+                        gameplay, featuring a user interface 
+                        and logic for single-player mode. Ensured 
+                        responsiveness for seamless play across devices.
+                    </p>
+                    <a href="https://karanjeet-kumar.github.io/tictactoe_codeXplore/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/portfolio2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>YouTube Clone</h4>
+                    <p>Developed a fully responsive application 
+                        that allows users to search, browse, and play videos
+                        seamlessly using the You-Tube Rapid API.
+                    </p>
+                    <a href="https://you-tube-clone-frmalw0by-karanjeet-kumars-projects.vercel.app"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/portfolio3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Talk Pulse</h4>
+                    <p>
+                        Developed a real-time messaging platform with 
+                        instant messaging, group chats, and user presence 
+                        indicators. Integrated WebSocket functionality 
+                        for seamless live updates.
+                    </p>
+                    <a href="https://talk-pulse-a-chat-app.onrender.com"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/portfolio4.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Stock Prediction</h4>
+                    <p>Developed an app using Python and Streamlit, providing 
+                        real-time stock price forecasts and trend analysis. 
+                        Integrated machine learning models for accurate 
+                        predictions with an intuitive, interactive interface.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/portfolio5.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>BlogPost-AI </h4>
+                    <p>Developed an AI App using OpenAI API for AI-driven 
+                        content generation, with secure user authentication 
+                        via Auth0. Implemented token-based blog creation 
+                        and Stripe integration for seamless payment processing.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./images/portfolio6.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>JobSearch Pulse</h4>
+                    <p>
+                        Developed a job portal app enabling users to search, 
+                        apply for jobs, and manage applications efficiently. 
+                        Integrated secure authentication and a 
+                        user-friendly interface for an enhanced experience.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" ></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Karanjeet | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
