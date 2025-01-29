@@ -415,7 +415,7 @@ span{
 .portfolio-container .portfolio-box{
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
+    box-shadow: 0 0 .6rem var(--main-color);
     overflow: hidden;
     display: flex;
 }
@@ -439,15 +439,14 @@ span{
     align-items: center;
     flex-direction: column;
     padding: 0 4rem;
-    transform: translateY(100%);
+    transform: translateX(-100%);
     transition: .5s ease;
 }
 .portfolio-box:hover .portfolio-layer{
-    transform: translateY(0);
+    transform: translateX(0);
 }
 .portfolio-layer h4{
     font-size: 3rem;
-    background-color: aqua;
     color: black;
 }
 .portfolio-layer p{
