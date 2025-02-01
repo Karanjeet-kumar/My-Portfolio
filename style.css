@@ -28,7 +28,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1.5rem 9%;
     background-color: #00081c;
     background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
     display: flex;
@@ -38,7 +38,8 @@ body{
 }
 .header .logo img{
     width: 210px;
-    height: 30px;
+    height: 35px;
+    animation: floatLogo 4s ease-in-out infinite;
 }
 .header.sticky{
     border-bottom:.1rem solid rgba(0, 0, 0, .2);
@@ -92,6 +93,17 @@ section{
     }
     100%{
         transform: translateY(0);
+    }
+}
+@keyframes floatLogo{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(2.4rem);
+    }
+    100%{
+        transform: translateX(0);
     }
 }
 .home-content h3{
@@ -480,8 +492,11 @@ span{
     align-items: center;
     width: 5rem;
     height: 5rem;
-    background: rgb(179, 31, 150);
+    background: whitesmoke;
     border-radius: 50%;
+}
+.portfolio-layer a:hover{
+    background-color: burlywood;
 }
 .portfolio-layer a i{
     font-size: 2rem;
@@ -498,7 +513,7 @@ span{
     background-color: #000000;
     background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 .contact h2{
     margin-bottom: 3rem;
